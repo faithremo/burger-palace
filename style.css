@@ -306,3 +306,32 @@ app_content{
     color: white;
     
 }
+
+/*Subscription form*/
+.main_footer{
+    background-color: #cce8f5;
+}
+
+.tbox .btn_submit{
+    border: none;
+    outline: none;  
+    font-size: 100px;
+}
+
+.tbox{
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btn_submit{
+    background: orange;
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn_submit:hover{
+    background:#d04949;
+}
+
