@@ -46,6 +46,13 @@
     color: white;
 }
 
+p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
 /*Banner Image */
 .banner_image{
     background-image: linear-gradient(100deg, #ffffff 60%, #ffff00 60%);
@@ -99,3 +106,40 @@ banner_content{
 .btn:active{
     background: #651a1a;
 }
+
+/*Services Section*/
+.container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 250px 250px 250px; /*Make the grid smaller than the container*/
+    grid-template-rows: 8px 300px;
+    grid-gap: 10px;
+    background-color: #e6ffe6;
+    padding: 10px;
+  }
+  
+  .container .grid-container {
+    background-color: #e6ffe6;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    height: 220px;
+    border-style: groove;
+    box-sizing: border-box;  
+    width: 150%; 
+  }
+
+  .container .mid-container {
+    background-color: #e6ffe6;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    height: 280px;
+    border-style: groove;
+    box-sizing: border-box;  
+    width: 150%;
+  }
+
+  .container .grid-container .mid-container >h5{
+      color:#da7171;
+  }
