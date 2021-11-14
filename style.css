@@ -335,3 +335,22 @@ app_content{
     background:#d04949;
 }
 
+.sub_footer{
+    background-color: white;
+    justify-content: space-around;
+    padding-top: 200px;
+    display: flex;
+}
+
+.footer_content{
+    text-align:left;
+    color:#000000;
+    display: flex;
+    font-size: 40px; 
+    justify-content: space-around; 
+    width: 700px;
+}
+
+.footer_content >a{
+    color: black;
+}
