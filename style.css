@@ -76,3 +76,26 @@ banner_content{
 .banner_content img{
     width: 300px;
 }
+
+*Order Now Button*/
+.btn{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 20px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background-color: #e6b800;
+    color:#ffffff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn:hover, .btn:focus{
+    background:#d04949;
+}
+
+.btn:active{
+    background: #651a1a;
+}
