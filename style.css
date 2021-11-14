@@ -143,3 +143,15 @@ banner_content{
   .container .grid-container .mid-container >h5{
       color:#da7171;
   }
+
+  /*Menu*/
+
+.menu{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+h1.title{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
