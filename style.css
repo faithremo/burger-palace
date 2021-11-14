@@ -56,6 +56,7 @@ p{
 /*Banner Image */
 .banner_image{
     background-image: linear-gradient(100deg, #ffffff 60%, #ffff00 60%);
+    
     background-size: cover;
     width: 100%;
     height: 600px;
