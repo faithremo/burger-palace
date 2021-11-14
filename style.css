@@ -8,6 +8,10 @@
     font-family: 'Poppins';
 }
 
+.main_container{
+    position: relative;
+}
+
 /*Navigation bar */
 .navbar{
     width: 100%;
@@ -35,3 +39,8 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
 }
+
+/* Change the link color on hover */
+.navbar .navbar_items ul li a:hover{
+    background-color: rgb(150, 147, 10);
+    color: white;
